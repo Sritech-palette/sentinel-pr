@@ -1,4 +1,4 @@
-# SentinelPR — Autonomous DevSecOps & Security Remediation Agent
+# SentinelPR: Autonomous DevSecOps & Security Remediation Agent
 
 SentinelPR is an agentic pull-request security auditor and remediation workflow powered by **LangGraph**, **FastAPI**, and **Next.js**. It inspects GitHub pull requests, checks dependencies against **OSV** advisories, scrubs sensitive data and PII via regex and **Microsoft Presidio**, enforces prompt/input guardrails, and routes side-effecting actions through a **Human-in-the-Loop (HITL)** approval gate with real-time execution telemetry.
 
