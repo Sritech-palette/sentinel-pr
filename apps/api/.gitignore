@@ -1,0 +1,21 @@
+# Secrets and local environment files (NEVER commit API keys or tokens!)
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+
+# Logs & OS junk
+*.log
+.DS_Store
+Thumbs.db
